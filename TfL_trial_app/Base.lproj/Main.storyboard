@@ -1,22 +1,82 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TfL_trial_app" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ag6-Fp-Tj9">
+                                <rect key="frame" x="155" y="42" width="105" height="30"/>
+                                <state key="normal" title="Lights statuses"/>
+                                <connections>
+                                    <action selector="button1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JFA-Ur-V1Q"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XRx-Is-yKV">
+                                <rect key="frame" x="167" y="124" width="80" height="30"/>
+                                <state key="normal" title="All lights on"/>
+                                <connections>
+                                    <action selector="button2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Z2v-iA-Hwt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0fL-e4-5ZU">
+                                <rect key="frame" x="166" y="223" width="82" height="30"/>
+                                <state key="normal" title="All lights off"/>
+                                <connections>
+                                    <action selector="button3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4Rt-bn-Vr5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VMK-Eh-2oq">
+                                <rect key="frame" x="174" y="317" width="66" height="30"/>
+                                <state key="normal" title="Get times"/>
+                                <connections>
+                                    <action selector="button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DGT-Jj-jfD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="93i-hy-5Bu">
+                                <rect key="frame" x="161" y="394" width="92" height="30"/>
+                                <state key="normal" title="Set Lights!!!!!"/>
+                                <connections>
+                                    <action selector="button5:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VYz-Ho-WdO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eoW-Uo-ocT">
+                                <rect key="frame" x="170" y="466" width="74" height="30"/>
+                                <state key="normal" title="Print times"/>
+                                <connections>
+                                    <action selector="ShowBusTimesLogged:" destination="BYZ-38-t0r" eventType="touchUpInside" id="85Y-LV-WA8"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="eoW-Uo-ocT" firstAttribute="centerX" secondItem="XRx-Is-yKV" secondAttribute="centerX" id="0nU-Y0-lde"/>
+                            <constraint firstItem="eoW-Uo-ocT" firstAttribute="top" secondItem="93i-hy-5Bu" secondAttribute="bottom" constant="42" id="A0Z-jT-wac"/>
+                            <constraint firstItem="VMK-Eh-2oq" firstAttribute="top" secondItem="0fL-e4-5ZU" secondAttribute="bottom" constant="64" id="KRT-Yi-jsX"/>
+                            <constraint firstItem="eoW-Uo-ocT" firstAttribute="centerX" secondItem="VMK-Eh-2oq" secondAttribute="centerX" id="Lov-7d-ECk"/>
+                            <constraint firstItem="93i-hy-5Bu" firstAttribute="top" secondItem="VMK-Eh-2oq" secondAttribute="bottom" constant="47" id="dxb-bA-nWs"/>
+                            <constraint firstItem="XRx-Is-yKV" firstAttribute="top" secondItem="Ag6-Fp-Tj9" secondAttribute="bottom" constant="52" id="f73-CJ-AXU"/>
+                            <constraint firstItem="eoW-Uo-ocT" firstAttribute="centerX" secondItem="93i-hy-5Bu" secondAttribute="centerX" id="gDs-hs-VTQ"/>
+                            <constraint firstItem="Ag6-Fp-Tj9" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="22" id="lc0-KT-Hk0"/>
+                            <constraint firstItem="eoW-Uo-ocT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="oST-TC-2UI"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="eoW-Uo-ocT" secondAttribute="bottom" constant="240" id="wff-aU-a2o"/>
+                            <constraint firstItem="eoW-Uo-ocT" firstAttribute="centerX" secondItem="0fL-e4-5ZU" secondAttribute="centerX" id="zED-LE-L71"/>
+                            <constraint firstItem="eoW-Uo-ocT" firstAttribute="centerX" secondItem="Ag6-Fp-Tj9" secondAttribute="centerX" id="zsW-M9-SzS"/>
+                        </constraints>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

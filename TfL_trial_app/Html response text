@@ -1,0 +1,50 @@
+Optional(
+"<?xml version=\'1.0\' encoding=\'UTF-8\' ?>\n\n \n \n<!DOCTYPE html PUBLIC \"-//WAPFORUM//DTD XHTML Mobile 1.2//EN\"
+\"http://www.openmobilealliance.org/tech/DTD/xhtml-mobile12.dtd\">\n\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n  <head>\n\t
+<title>
+Live bus arrivals | Transport for London</title>\n\t  <meta name=\"X-Kizoom-SourcePage\" content=\"/LondonBusCountdownMobile-LondonBusMobileEAR/lbtmm/arrivals/48112\"/>\n\t  <meta http-equiv=\"Cache-Control\" content=\"max-age=0\"/>\n  \t  <meta http-equiv=\"Pragma\" content=\"no-cache\"/>\n  \t  <meta name=\"viewport\" content=\"width=320; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;\" />\n  \t  \n\n<link rel=\"stylesheet\" type=\"text/css\" media=\"all\" href=\"/css/common.v20131016.1605.css\"/>\n  \t  \n\n<link rel=\"stylesheet\" type=\"text/css\" media=\"all\" href=\"/css/mobile.v20131016.1605.css\"/>\n\n<!--[if !IE]>-->\n  \t  \n\n<link rel=\"stylesheet\" type=\"text/css\" media=\"only screen and (max-device-width: 480px)\" href=\"/css/iphone.v20131016.1605.css\"/>\n\t  \n\n<link rel=\"stylesheet\" type=\"text/css\" media=\"only screen and (max-device-width: 480px)\" href=\"/tfl/css/tfl-iphone.v20131016.1605.css\"/>\n<!--<![endif]-->\n  </head>\n\t<body>\n\t\t<div id=\"brandHeader\">\n\t\t\t<div id=\"logo\">\n\t\t\t\t\n\n\n\n\n<img id=\"tfl_logo\" width=\"130\" height=\"35\" alt=\"Transport for London\" src=\"/tfl/images/tfl-130.v20131016.1605.png\"/>\n\t\t\t</div>\n\t\t</div>\n\t\t
+
+<h1>Live bus arrivals</h1>\n\t\t\n
+<div id=\"busDepartingTextHeader\">
+Buses arriving at</div>\n<div>\n\t
+<span class=\"stopInfo\">\n\t\t\n\n
+Margery Park Road\n\t\t\n\t\t\t (S)
+\n\t\t\n\t</span>\n\t<span id=\"stopCodeAndTimeHeader\"> @ 17:51 -
+Bus stop code 48112
+</span>\n</div>\n\n\t<div>towards Stratford</div>\n\n\n<div class=\"constrainToMap\">\n\t<p>\n\n\n\n\n\n\n\t\n\t\n\t\n\t\n\t\n\t\t<div id=\"highlightedOperators\">\n\t\t\t\n\t\t</div>\n\t\t<table id=\"stopBoard\" class=\"results\" summary=\
+"Bus departures from \n\nMargery Park Road by route, destination and time due\">\n\t\t\t<thead>\n\t\t\t<tr>\n\t\t\t\t<!-- <th />
+operator icon column is unnecessary for LBSL -->\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t<th scope=\"col\" class=\"resRoute\">
+<a href=\"/arrivals/48112/sort/route\"
+title=\"Sort by route\">Route</a>&#160;</th>\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t<th scope=\"col\" class=\"resDir\"><a href=\"/arrivals/48112/sort/destination\" title=\"Sort by destination\">To</a></th>\n\t\t\t\t\n\t\t\t\t<th scope=\"col\" class=\"resDue sorted\"><a href=\"/arrivals/48112/sort/time\" title=\"Sort by time due\">Time</a></th>\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t</tr>\t\n\t\t\t</thead>\n\t\t\t<tbody>\n\t\t\t\n\t\t\t\t<tr>\n\t\t\t\t  <!-- <td></td> --><!-- operator icon column is unnecessary for LBSL -->\n\t\t\t\t\t
+
+<td class=\"resRoute\">
+\n\t\t\t\t\t\t
+\n\t\t\t\t\t\t\t
+\n\t\t\t\t\t\t\t   25
+\n\t\t\t\t\t\t\n\t\t\t\t\t
+</td>\n\t\t\t\t\t
+<td class=\"resDir\" style=\"width:50%;\">
+Bank
+&#160;</td>\n\t\t\t\t\t
+<td class=\"resDue\">
+1 min
+</td>\n\t\t\t\t</tr>\n\t\t\t\n\t\t\t\t<tr>\n\t\t\t\t  <!-- <td></td> --><!-- operator icon column is unnecessary for LBSL -->\n\t\t\t\t\t
+
+<td class=\"resRoute\">
+\n\t\t\t\t\t\t
+\n\t\t\t\t\t\t\t
+\n\t\t\t\t\t\t\t   25
+\n\t\t\t\t\t\t\n\t\t\t\t\t
+</td>\n\t\t\t\t\t
+<td class=\"resDir\" style=\"width:50%;\">
+Oxford Circus
+&#160;
+</td>\n\t\t\t\t\t
+<td class=\"resDue\">
+2 min
+</td>\n\t\t\t\t</tr>\n\t\t\t\n\t\t\t\t<tr>\n\t\t\t\t  <!-- <td></td> --><!-- operator icon column is unnecessary for LBSL -->\n\t\t\t\t\t
+<td class=\"resRoute\">
+\n\t\t\t\t\t\t
+\n\t\t\t\t\t\t\t
+\n\t\t\t\t\t\t\t    86
+\n\t\t\t\t\t\t\n\t\t\t\t\t</td>\n\t\t\t\t\t<td class=\"resDir\" style=\"width:50%;\">Stratford&#160;</td>\n\t\t\t\t\t<td class=\"resDue\">8 min</td>\n\t\t\t\t</tr>\n\t\t\t\n\t\t\t\t<tr>\n\t\t\t\t  <!-- <td></td> --><!-- operator icon column is unnecessary for LBSL -->\n\t\t\t\t\t<td class=\"resRoute\">\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t25\n\t\t\t\t\t\t\n\t\t\t\t\t</td>\n\t\t\t\t\t<td class=\"resDir\" style=\"width:50%;\">Bank&#160;</td>\n\t\t\t\t\t<td class=\"resDue\">8 min</td>\n\t\t\t\t</tr>\n\t\t\t\n\t\t\t\t<tr>\n\t\t\t\t  <!-- <td></td> --><!-- operator icon column is unnecessary for LBSL -->\n\t\t\t\t\t<td class=\"resRoute\">\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t86\n\t\t\t\t\t\t\n\t\t\t\t\t</td>\n\t\t\t\t\t<td class=\"resDir\" style=\"width:50%;\">Stratford&#160;</td>\n\t\t\t\t\t<td class=\"resDue\">9 min</td>\n\t\t\t\t</tr>\n\t\t\t\n\t\t\t\t<tr>\n\t\t\t\t  <!-- <td></td> --><!-- operator icon column is unnecessary for LBSL -->\n\t\t\t\t\t<td class=\"resRoute\">\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t25\n\t\t\t\t\t\t\n\t\t\t\t\t</td>\n\t\t\t\t\t<td class=\"resDir\" style=\"width:50%;\">Oxford Circus&#160;</td>\n\t\t\t\t\t<td class=\"resDue\">10 min</td>\n\t\t\t\t</tr>\n\t\t\t\n\t\t\t\t<tr>\n\t\t\t\t  <!-- <td></td> --><!-- operator icon column is unnecessary for LBSL -->\n\t\t\t\t\t<td class=\"resRoute\">\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t25\n\t\t\t\t\t\t\n\t\t\t\t\t</td>\n\t\t\t\t\t<td class=\"resDir\" style=\"width:50%;\">Bank&#160;</td>\n\t\t\t\t\t<td class=\"resDue\">12 min</td>\n\t\t\t\t</tr>\n\t\t\t\n\t\t\t\t<tr>\n\t\t\t\t  <!-- <td></td> --><!-- operator icon column is unnecessary for LBSL -->\n\t\t\t\t\t<td class=\"resRoute\">\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t86\n\t\t\t\t\t\t\n\t\t\t\t\t</td>\n\t\t\t\t\t<td class=\"resDir\" style=\"width:50%;\">Stratford&#160;</td>\n\t\t\t\t\t<td class=\"resDue\">14 min</td>\n\t\t\t\t</tr>\n\t\t\t\n\t\t\t\t<tr>\n\t\t\t\t  <!-- <td></td> --><!-- operator icon column is unnecessary for LBSL -->\n\t\t\t\t\t<td class=\"resRoute\">\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t25\n\t\t\t\t\t\t\n\t\t\t\t\t</td>\n\t\t\t\t\t<td class=\"resDir\" style=\"width:50%;\">Bank&#160;</td>\n\t\t\t\t\t<td class=\"resDue\">15 min</td>\n\t\t\t\t</tr>\n\t\t\t\n\t\t\t\t<tr>\n\t\t\t\t  <!-- <td></td> --><!-- operator icon column is unnecessary for LBSL -->\n\t\t\t\t\t<td class=\"resRoute\">\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t25\n\t\t\t\t\t\t\n\t\t\t\t\t</td>\n\t\t\t\t\t<td class=\"resDir\" style=\"width:50%;\">Oxford Circus&#160;</td>\n\t\t\t\t\t<td class=\"resDue\">16 min</td>\n\t\t\t\t</tr>\n\t\t\t\n\t\t\t</tbody>\n\t\t</table>\n\t\t\n\t\t\n\n\n\n\n\t\n\t\n\t\t\n\t\t\n\t\t\t<div id=\"more\"><a id=\"moreLink\" href=\"/arrivals/48112?page=1\" title=\"See more results\">More&#8230;</a></div>\n\t\t\n\t\n\n\t\n\n</p>\n\t<ul class=\"linklist\">\n\t\t\n\n\n\n<li><a href=\"/arrivals/48112/refresh\" title=\"Refresh this information\">Refresh</a></li>\n\n\n\t</ul>\n\t<div name=\"seeTravelNewsLink\"><a href=\"#travelNews48112\" title=\"Scroll down to the Travel News\">See Travel News</a></div>\n</div>\n\n\n\t\n\t\n\t\t\n\t\t\t<a id=\"viewMap\" href=\"/arrivals/48112?showMap=true\" title=\"Display these stops on a map\">See map&#8230;</a>\n\t\t\n\t\n\n\n<div name=\"seeTravelNews\"><br />\n\n\n\n\n\n\t<h2 id=\"travelNews\"><span id=\"travelNews48112\"></span>Travel News\n\t</h2>\n\t\n\t\n\t\t<ol id=\"travelNewsList\">\n\t\t\t\n\t\t\t\t<li>London Overground - No service 31 January between Gospel Oak and Barking. Replacement bus services will be in operation. Please allow extra time to complete your journey</li>\n\t\t\t\n\t\t</ol>\n\t\t\n\t\n\t\t</div>\n\t\t\n\n<div id=\"searchInput\">\n\t<h2>Search</h2>\n\t\n<form id=\"C2search\" method=\"get\" action=\"/search\">\n\t<fieldset>\n\t\t<input type=\"text\" name=\"searchTerm\" size=\"20\" value=\"\" />\n\t\t<input id=\"submitSearch\" class=\"button\" type=\"submit\" value=\"Search\" />\n\t</fieldset>\n</form>\n\n</div>\n\n\n\n\t\t<ul id=\"brandFooter\">\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t<li><a href=\"http://m.countdown.tfl.gov.uk\">Home - Live bus arrivals</a></li>\n\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t \t\t<li><a href=\"http://m.tfl.gov.uk/mt/www.tfl.gov.uk\">Home - TfL</a></li>\n\t\t\t \t\n\t\t\t\n\t\t\t<!-- \n\t\t\t<li><a href=\"\">Plan journey</a></li>\n\t\t\t -->\n\t\t</ul>\n\t</body>\n</html>\n")

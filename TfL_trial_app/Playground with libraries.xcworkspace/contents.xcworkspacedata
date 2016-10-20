@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:SwiftyJSON.swift">
+   </FileRef>
+   <FileRef
+      location = "group:MyPlayground.playground">
+   </FileRef>
+   <Group
+      location = "group:Alamofire"
+      name = "Alamofire">
+      <FileRef
+         location = "group:Alamofire.podspec">
+      </FileRef>
+      <FileRef
+         location = "group:Alamofire.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:Alamofire.xcworkspace">
+      </FileRef>
+      <FileRef
+         location = "group:CHANGELOG.md">
+      </FileRef>
+      <FileRef
+         location = "group:CONTRIBUTING.md">
+      </FileRef>
+      <Group
+         location = "group:Documentation"
+         name = "Documentation">
+         <FileRef
+            location = "group:Alamofire 2.0 Migration Guide.md">
+         </FileRef>
+         <FileRef
+            location = "group:Alamofire 3.0 Migration Guide.md">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:Example"
+         name = "Example">
+         <FileRef
+            location = "group:AppDelegate.swift">
+         </FileRef>
+         <Group
+            location = "group:Base.lproj"
+            name = "Base.lproj">
+            <FileRef
+               location = "group:Main.storyboard">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:DetailViewController.swift">
+         </FileRef>
+         <Group
+            location = "group:Images.xcassets"
+            name = "Images.xcassets">
+            <Group
+               location = "group:AppIcon.appiconset"
+               name = "AppIcon.appiconset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:LaunchImage.launchimage"
+               name = "LaunchImage.launchimage">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:Logo.imageset"
+               name = "Logo.imageset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+               <FileRef
+                  location = "group:Logo.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Logo@2x.png">
+               </FileRef>
+            </Group>
+         </Group>
+         <FileRef
+            location = "group:Info.plist">
+         </FileRef>
+         <FileRef
+            location = "group:MasterViewController.swift">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:iOS Example.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:LICENSE">
+      </FileRef>
+      <FileRef
+         location = "group:Package.swift">
+      </FileRef>
+      <FileRef
+         location = "group:README.md">
+      </FileRef>
+      <Group
+         location = "group:Source"
+         name = "Source">
+         <FileRef
+            location = "group:Alamofire.h">
+         </FileRef>
+         <FileRef
+            location = "group:Alamofire.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Download.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Error.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Info-tvOS.plist">
+         </FileRef>
+         <FileRef
+            location = "group:Info.plist">
+         </FileRef>
+         <FileRef
+            location = "group:Manager.swift">
+         </FileRef>
+         <FileRef
+            location = "group:MultipartFormData.swift">
+         </FileRef>
+         <FileRef
+            location = "group:ParameterEncoding.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Request.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Response.swift">
+         </FileRef>
+         <FileRef
+            location = "group:ResponseSerialization.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Result.swift">
+         </FileRef>
+         <FileRef
+            location = "group:ServerTrustPolicy.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Stream.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Upload.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Validation.swift">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:Tests"
+         name = "Tests">
+         <FileRef
+            location = "group:AuthenticationTests.swift">
+         </FileRef>
+         <FileRef
+            location = "group:BaseTestCase.swift">
+         </FileRef>
+         <FileRef
+            location = "group:CacheTests.swift">
+         </FileRef>
+         <FileRef
+            location = "group:DownloadTests.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Info.plist">
+         </FileRef>
+         <FileRef
+            location = "group:ManagerTests.swift">
+         </FileRef>
+         <FileRef
+            location = "group:MultipartFormDataTests.swift">
+         </FileRef>
+         <FileRef
+            location = "group:NSURLSessionConfiguration+AlamofireTests.swift">
+         </FileRef>
+         <FileRef
+            location = "group:ParameterEncodingTests.swift">
+         </FileRef>
+         <FileRef
+            location = "group:RequestTests.swift">
+         </FileRef>
+         <Group
+            location = "group:Resources"
+            name = "Resources">
+            <Group
+               location = "group:Certificates"
+               name = "Certificates">
+               <Group
+                  location = "group:alamofire.org"
+                  name = "alamofire.org">
+                  <FileRef
+                     location = "group:alamofire-root-ca.cer">
+                  </FileRef>
+                  <FileRef
+                     location = "group:alamofire-signing-ca1.cer">
+                  </FileRef>
+                  <FileRef
+                     location = "group:alamofire-signing-ca2.cer">
+                  </FileRef>
+                  <FileRef
+                     location = "group:expired.cer">
+                  </FileRef>
+                  <FileRef
+                     location = "group:missing-dns-name-and-uri.cer">
+                  </FileRef>
+                  <FileRef
+                     location = "group:multiple-dns-names.cer">
+                  </FileRef>
+                  <FileRef
+                     location = "group:signed-by-ca1.cer">
+                  </FileRef>
+                  <FileRef
+                     location = "group:signed-by-ca2.cer">
+                  </FileRef>
+                  <FileRef
+                     location = "group:test.alamofire.org.cer">
+                  </FileRef>
+                  <FileRef
+                     location = "group:valid-dns-name.cer">
+                  </FileRef>
+                  <FileRef
+                     location = "group:valid-uri.cer">
+                  </FileRef>
+                  <FileRef
+                     location = "group:wildcard.alamofire.org.cer">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:disig.sk"
+                  name = "disig.sk">
+                  <FileRef
+                     location = "group:intermediate-ca-disig.cer">
+                  </FileRef>
+                  <FileRef
+                     location = "group:root-ca-disig.cer">
+                  </FileRef>
+                  <FileRef
+                     location = "group:testssl-expire.disig.sk.cer">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:selfSignedAndMalformedCerts"
+                  name = "selfSignedAndMalformedCerts">
+                  <FileRef
+                     location = "group:certDER.cer">
+                  </FileRef>
+                  <FileRef
+                     location = "group:certDER.crt">
+                  </FileRef>
+                  <FileRef
+                     location = "group:certDER.der">
+                  </FileRef>
+                  <FileRef
+                     location = "group:certPEM.cer">
+                  </FileRef>
+                  <FileRef
+                     location = "group:certPEM.crt">
+                  </FileRef>
+                  <FileRef
+                     location = "group:keyDER.der">
+                  </FileRef>
+                  <FileRef
+                     location = "group:randomGibberish.crt">
+                  </FileRef>
+               </Group>
+            </Group>
+            <Group
+               location = "group:Images"
+               name = "Images">
+               <FileRef
+                  location = "group:rainbow.jpg">
+               </FileRef>
+               <FileRef
+                  location = "group:unicorn.png">
+               </FileRef>
+            </Group>
+         </Group>
+         <FileRef
+            location = "group:ResponseSerializationTests.swift">
+         </FileRef>
+         <FileRef
+            location = "group:ResponseTests.swift">
+         </FileRef>
+         <FileRef
+            location = "group:ResultTests.swift">
+         </FileRef>
+         <FileRef
+            location = "group:ServerTrustPolicyTests.swift">
+         </FileRef>
+         <FileRef
+            location = "group:String+AlamofireTests.swift">
+         </FileRef>
+         <FileRef
+            location = "group:TLSEvaluationTests.swift">
+         </FileRef>
+         <FileRef
+            location = "group:UploadTests.swift">
+         </FileRef>
+         <FileRef
+            location = "group:URLProtocolTests.swift">
+         </FileRef>
+         <FileRef
+            location = "group:ValidationTests.swift">
+         </FileRef>
+      </Group>
+   </Group>
+</Workspace>
